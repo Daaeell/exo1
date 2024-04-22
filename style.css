@@ -1,0 +1,395 @@
+body {
+    margin: 0% !important;
+    padding: 0% !important;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(231, 100, 100);
+    width: 100%;
+    height: 8%;
+   
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(219, 219, 219);
+    height: 45%;
+}
+/* ID DE HAUT EN BAS */
+/* Barre de navigation / barre de recherche */
+#navGauche {
+    display:flex;
+    align-items: center;
+    width: 40%;
+}
+#menuham {
+    display: none;
+}
+#navDroite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18%;
+}
+#search {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    width: 80%;
+    height: 50%;  
+}
+#search form {
+    display: flex;
+    align-items: center;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+}
+#search input {
+    border: 1.5px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    border-right: none;
+    border-left : none;
+    color: white;
+    width: 150%;
+    height: 100%;
+    padding: 1% 4% 0% 7%;
+} 
+#search input::placeholder {
+    color: white;
+    text-align: center;
+    font-size: 120%;
+    width: 25%;
+}
+#search button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+}
+/* Partie main */
+/* Partie haute du main */
+#topmain {
+    display: flex;
+    justify-content: center;
+    height: 45%;
+}
+/* Milieu du main */
+#midmain {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 25%;
+}
+#midmain article {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    width: 40%;
+}
+#midmain p {
+    font-size: 140%;
+    line-height: 150%;
+    margin: 0%;
+}
+/* Partie basse de main */
+#bottommain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+#bottommain article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    width: 40%;
+}
+.bottomtext {
+    font-size: 100%;
+    font-family: arial;
+    font-weight: 100;
+}
+#bottommain h2 {
+    text-align: center;
+    margin: 0%;
+    width: 55%;
+}
+/* CLASS DE HAUT EN BAS */
+/* Barre de navigation / barre de recherche */
+.logo{
+    width: 6.5%;
+    height: 68%;
+    margin-left: 2%;
+}
+.search_res {
+    display: none;
+}
+.separateur {
+    border-left: 1px solid #ffffff;
+    height: 68%; 
+    margin: 1.75% 2% 2% 2%;
+}
+.img_list { 
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items: center;
+}
+.menubox {
+    display: flex;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+.reseauxham {
+    display: none;
+}
+.menupc {
+    margin-right: 15%;
+}
+.menuitem {
+    font-family: arial;
+    color: white;
+    text-decoration: none;
+}
+.search_text input{
+    position: relative;
+    right: 5%;
+}
+.logo_search {   
+    position:absolute;
+    right : 4%;
+}
+/* Partie haute du main */
+.img_addy{
+    display:flex;
+    justify-content: center;   
+}
+
+.img_addy img {
+    width: 100%;
+    height: 23%;
+    margin-left: 70%;
+    margin-top: 98%;
+}
+.toptexte {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    width: 37%;
+    height: 100%;
+}
+.profil { 
+    width: 92%;
+}
+.profil h2{
+    font-weight: 100;
+    margin-bottom: 0%;
+}
+.profil p{
+    color: rgb(148, 148, 148);
+    font-size: 108%;
+    line-height: 170%;
+    width: 100%;
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+}
+.citation {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.citation h2 {
+    text-align: center;
+    font-size: 215%;
+    width: 100%;
+    margin: 0%;
+}
+.citation p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 140%;
+    line-height: 150%;
+    width: 110%;
+    margin-top: 2%;
+    color: rgb(177, 177, 177);
+}
+/* milieu du main */
+ /* Partie slide vidéos ytb */
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%; 
+    height: 70%;
+}
+.fleches {
+    opacity: 50%;
+    width: 2.2%;
+    height: 10.5%;
+}
+.fleches:hover {
+    opacity: 100%;
+}
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 56%;
+    height: 100%;
+    font-size: 100%;
+    font-weight: bold;
+    color: rgb(182, 182, 182);
+    font-family: arial;
+}
+/* Partie basse du main */
+.bottomlist li{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1%;
+    line-height: 130%;
+    font-size: 90%;
+    width: 93%;
+}
+.articlebutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20% ;
+}
+.buttonposition {
+    width: 15%;
+}
+.buttonread {
+    border-color: rgb(175, 30, 30);
+    background-color: rgb(231, 100, 100);
+    color: white;
+    width: 100%;
+    height: 30%;
+    margin: 0;
+    padding: 0%;
+}
+.buttonread:hover {
+    background-color: rgb(255, 124, 124);
+}
+/* Partie footer */
+.morereco {
+    height: 10%;
+    margin: 1% 30% 2% 0%;
+}
+.otherpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 55%;
+    margin-bottom: 1%;
+}
+.articleimg {
+    margin-top: 2%;
+    border-radius: 5px;
+    border: 1.5px solid rgb(204, 204, 204);
+}
+.pageaddy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid gray;
+    border-radius: 10px;
+    background-color: white;
+    margin: 0% 0.5% 0% 0.5%;
+    width: 100%;
+}
+.pagecarolyn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid gray;
+    border-radius: 10px;
+    background-color: white;
+    margin: 0% 0.5% 0% 0.5%;
+    width: 100%;
+}
+.pagecorey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid gray;
+    border-radius: 10px;
+    background-color: white;
+    margin: 0% 0.5% 0% 0.5%;
+    width: 100%;
+}
+.othertexte {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 200%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 130%;
+    margin: 0%;
+}
+.othertext {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 130%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 130%;
+    margin: 0%;
+}
+/* Partie auteurs des articles */
+.profilfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    height: 20%;
+}
+.profilfooter p {
+    font-size: 120%;
+    width: 60%;
+    margin: 0% 0% 0% 5%;
+}
+.profilfooter img {
+    margin: 5% 0%;
+    width: 20%;
+    height: 20%;
+}
+
+/* CLASS MODIFICATION TEXTE */
+.gras {
+    font-weight: bold;
+}
+.grass {
+    font-size: 120%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.grissouligne {
+    color: rgb(156, 156, 156);
+    text-decoration: underline;
+}
+.readmin {
+    color: rgb(196, 196, 196);
+    margin: 0% 0% 5% 0%;
+}
+
+
+
+
+

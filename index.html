@@ -1,0 +1,171 @@
+<!--<!DOCTYPE html>-->
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link href="./style.css" rel="stylesheet"/>
+        <link href="./responsive.css" rel="stylesheet"/>
+       
+        
+    </head>
+    <body>
+        <header>
+            <!-- Barre de navigation partie gauche -->
+            <section id="navGauche">
+                <img class="logo" src="./images/logo.png">
+                <div class="separateur"></div>
+                <section>
+                <!-- Partie réseaux -->
+                    <article class ="img_list">
+                        <a href="https://twitter.com/x"><img src="./images/twitter.png" alt="twitter"  width="100%" height="55%"></a>
+                        <a href="https://fr-fr.facebook.com"><img src="./images/facebook.png" alt="facebook"width="100%" height="55%"></a>
+                    </article>
+                </section>
+                
+                <div class="separateur"></div>
+                <!-- Menu Burger -->
+                <div class="hamburgermenu">
+                    <input id="menuham" type="checkbox" />
+                    <label class="menu__btn" for="menuham">
+                        <span></span>
+                    </label>
+                    
+                    <ul class="menubox">
+                        <!-- Menu Burger : Réseaux -->
+                        <li class="reseauxham">
+                            <a href="https://twitter.com/x"><img src="./images/twitter.png" alt="twitter"  width="100%" height="100%"></a>
+                            <a href="https://fr-fr.facebook.com"><img src="./images/facebook.png" alt="facebook"width="100%" height="100%"></a>
+                        </li> 
+                        <!-- Menu Burger : Barre de navigation -->
+                        <li class="menupc"><a class="menuitem" href="./index.html">Home</a></li>
+                        <li class="menupc"><a class="menuitem" href="./index.html">Article</a></li> 
+                        <li class="menupc"><a class="menuitem" href="./index.html">Pricing</a></li> 
+                        <li class="menupc"><a class="menuitem" href="./index.html">Contact</a></li>
+                        <!-- Menu Burger : Barre de recherche -->
+                        <li class="search_res">
+                                <input id="search_input_res" type="text" placeholder="Search..."/> 
+                                <button type="submit"><a href="./index.html"><img src="./images/loupe.png" alt="search"/></a></button>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Barre de navigation partie droite -->
+            <section id="navDroite">
+                <article id="search">
+                    <!-- Barre de recherche -->
+                    <form action="./index.html" method="GET">
+                        <div class="search_text">
+                        <input id="search_input" type="text" placeholder="Search..."/> 
+                        </div>
+                        <div class="logo_search"> 
+                        <button type="submit"><img src="./images/loupe.png" alt="search"/></button>
+                        </div>
+                    </form>
+                </article>
+            </section>    
+        </header>
+        <main>
+            <!-- Partie haute du main -->
+            <section id="topmain">
+                <div class="img_addy">
+                <img src="./images/addyosmani.png" alt="Addy Osmani" width="100%" height="100%">
+                </div>
+                <section class="toptexte">
+                    <article class="profil">
+                        <h2>Addy Osmani</h2>
+                        <p>Staff Engineer at Google. Working with the Chrome team • Creator of TodoMVC, Yeoman, Material Design Lite, Web Starter Kit • 
+                            Passionate about web tooling.
+                        </p>
+                    </article>
+                    <article class="citation">
+                        <h2>Accessible UI Components For The Web</h2>
+                        <p>"The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect." - Tim Berners-Lee</p>
+                    </article>
+                </section>
+            </section>
+            <img src="./images/banner.png" alt="banner" width="100%">
+            <!-- milieu du main -->
+            <section id="midmain">
+                <article>
+                    <p>
+                        To be <em class="gras">accessible</em>, UI compenents need to work across multiple devices with varying screen-sizes and different 
+                        kinds of input. Moreover, components should be usable by the broadesr group of users, including those with disabilities.
+                    </p>
+                </article>
+            </section>
+            <!-- Slide videos ytb -->
+            <section id="slideb">
+                <article class="slide">
+                    <img class="fleches" src="./images/arrow-left.png">
+                    <div class="video">
+                        <iframe width="100%" height="65%" src="https://www.youtube.com/embed/OBfLvqA_E4A?si=UsPeMbIprsiGLHnM"></iframe>
+                        <p>Offline Support, Totally Tooling Tips (S3, Ep1)</p>
+                    </div>                   
+                    <img class="fleches" src="./images/arrow-right.png">
+                </article>
+            </section>
+            <!-- Partie basse du main -->
+            <section id="bottommain">
+                <h2>When designing for accessibility, there are four key areas of disability to consider: visual, hearing, mobility and cognition.</h2>
+                <article>
+                    <h1 class="bottomtext"><em class="grass">Visual issues</em> can range from an inability to distinguish colors to no vision at all.</h1>
+                        <ul class="bottomlist">                            
+                            <li>Ensure a minimum <em class="grissouligne">contrast ratio threshold</em> eis met for text content.</li> 
+                            <li>Avoid communicating information <em class="grissouligne">using solely color</em> and censure that all text is <em class="grissouligne">resizable</em></li> 
+                            <li>Ensure all user interface components can be used with assistive technologies such as screen readers, magnifiers and braille displays. 
+                               This entails ensuring that UI components are marked up such that accesibility APIs can programmatically determine the role, state, 
+                               value and title of any element.</li> 
+                        </ul>
+                    <h1 class="bottomtext"><em class="grass">Hearing issues</em> mean a user may have issues hearing sound emitted from a page.</h1>
+                </article>
+            </section>
+            <!-- bouton "read more" -->
+            <section class="articlebutton">
+            <article class="buttonposition">
+                <button class="buttonread" type="button">Read More for 2$/month</button>
+            </article>
+            </section>
+        </main>
+        <footer>
+            <!-- Partie footer / autre article -->
+            <!-- article 1 -->
+            <h1 class="Morereco">More recommandations</h1>
+            <section class="otherpage">
+                <article class="pageaddy">
+                    <img class="articleimg" src="./images/article1.png">
+                    <p class="othertexte">More from Addy Osmani</p>
+                    <p class="othertext">Offline Storage for Progressive Web Apps</p>
+                    <article class="profilfooter">
+                        <img src="./images/addyosmani-small.png">
+                        <p>Addy Osmani</p>
+                    </article>
+                    <h1 class="readmin">6 minutes read</h1>
+                </article>
+                <!-- article 2 -->
+                <article class="pagecarolyn">
+                    <img class="articleimg" src="./images/article2.png">
+                    <p class="othertexte">Also tagged Accessibility</p>
+                    <p class="othertext">Color My World: The Science of Color in UX</p>
+                    <article class="profilfooter">
+                        <img src="./images/carolynherman-small.png">
+                        <p>Carolyn Herman</p>
+                    </article>
+                    <h1 class="readmin">3 minutes read</h1>
+                </article>
+                <!-- article 3-->
+                <article class="pagecorey">
+                    <img class="articleimg" src="./images/article3.png">
+                    <p class="othertexte">Also tagged Accessibility</p>
+                    <p class="othertext">Implementing Accesibility for a Custom Control in the...</p>
+                    <article class="profilfooter">
+                        <img src="./images/coreyfloyd-small.png">
+                        <p>Corey Floyd</p>
+                    </article>
+                    <h1 class="readmin">6 minutes read</h1>
+                </article>
+            </section>
+        </footer>
+        <script src="./script.js" defer></script>
+    </body>
+</html>
